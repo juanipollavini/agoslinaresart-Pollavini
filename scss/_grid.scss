@@ -1,0 +1,55 @@
+/* Aplicacion de Grid en pagina Galeria */
+
+.gale {
+    width: 100%;
+    height: 300px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    gap: 10px;
+    grid-template-areas: "foto1 foto2 foto3" "foto4 foto5 foto6" "foto7 foto8 foto9" "foto10 foto11 foto12";
+}
+
+.foto {
+    padding: 2.5px;
+    img {
+        width: 150px;
+        height: 150px;
+    }
+    .uno {
+        grid-area: foto1;
+    }
+    .dos {
+        grid-area: foto2;
+    }
+    .tres {
+        grid-area: foto3;
+    }
+    .cuatro {
+        grid-area: foto4;
+    }
+    .cinco {
+        grid-area: foto5;
+    }
+    .seis {
+        grid-area: foto6;
+    }
+    .siete {
+        grid-area: foto7;
+    }
+    .ocho {
+        grid-area: foto8;
+    }
+    .nueve {
+        grid-area: foto9;
+    }
+    .diez {
+        grid-area: foto10;
+    }
+    .once {
+        grid-area: foto11;
+    }
+    .doce {
+        grid-area: foto12;
+    }
+}

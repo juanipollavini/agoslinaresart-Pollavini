@@ -1,0 +1,9 @@
+@mixin tamaño($width, $height) {
+    height: $height;
+    width: $width;
+}
+
+@mixin mg($margin, $padding) {
+    margin: $margin;
+    padding: $padding;
+}
